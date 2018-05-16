@@ -1,0 +1,38 @@
+body {
+  background-color: #EFECCA;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+  color: #C03000;
+}
+
+h2 {
+  color: #4BB5C1;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  background-color: #C03000;
+  padding: 0.5em;
+  border: 0.15em solid #660000;
+  margin: 0.2em;
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #EFECCA;
+}
+
+nav li:hover {
+  background-color: #009900;
+}
+
+footer a {
+  color: #0000FF;
+  text-decoration: none;
+}

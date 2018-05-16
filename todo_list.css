@@ -1,0 +1,40 @@
+.content {
+  background-color: #000099;
+  font-family: Helvetica, Arial;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+}
+
+.content h1 {
+  color: white;
+}
+
+ul {
+  width: 70%;
+}
+
+li {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  list-style-type: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#todotxt {
+  margin-top: 40px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+button {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
