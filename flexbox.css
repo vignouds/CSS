@@ -55,6 +55,10 @@ footer {
     width: 100%;
   }
 
+  footer {
+    order: 4;
+  }
+
   main {
     box-sizing: border-box;
     width: 50%;

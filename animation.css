@@ -1,0 +1,23 @@
+@keyframes animation {
+  0% {background-color: red;}
+  25% {transform: rotateZ(45deg);}
+  50% {background-color: blue}
+  75% {transform: rotateZ(135deg);}
+  100% {transform: rotateZ(180deg); background-color: red;}
+}
+
+.boite {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: animation 5s linear infinite;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.boite:hover {
+  width: 200px;
+}
